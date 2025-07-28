@@ -146,3 +146,60 @@ section.advantages{
     font-weight: 300;
 }
 
+/* estilos da seção de contato */
+section.contact{
+    padding: 80px 0;
+    background-color: white;
+}
+
+section.contact .contact__container{
+    display: flex;
+    gap: 140px;
+}
+
+.contact__container .contact__text{
+    margin: auto 0;
+}
+
+.contact__container .contact__text h3{
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-weight: 300;
+    line-height: 40px;
+}
+
+.contact__container .contact__text h3 span{
+    display: block;
+    font-weight: 700;
+}
+
+.contact__container .contact__icons{
+    width: 50%;
+}
+
+.contact__container .contact__icons a{
+    text-decoration: none;
+}
+
+.contact__icons a button{
+    display: flex;
+    width: 60%;
+    height: 60px;
+    margin: 0 auto 20px auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid black;
+    transition: 0.5s;
+}
+
+.contact__icons a button:hover{
+    background-color: black;
+}
+
+.contact__icons a button:hover svg, .contact__icons a button:hover p{
+    color: white;
+}
+
