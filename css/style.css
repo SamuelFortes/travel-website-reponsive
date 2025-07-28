@@ -12,10 +12,22 @@
     margin: 0 auto;
 }
 
+header .header__btn button, .hero__text button  {
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
 /* estilos do header */
 header {
     width: 100%;
     padding: 40px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 header .interface {
@@ -28,7 +40,7 @@ header .header__logo img {
     max-width: 40px;
 }
 
-header .header__menu__descktop nav ul{
+header .header__menu__desktop nav ul{
     list-style-type: none;
 }
 
@@ -37,21 +49,100 @@ header nav ul li{
     margin: 0 40px;
 }
 
-header nav ul li a {
+header .header__menu__desktop li a {
     text-decoration: none;
     color: white;
+    display: inline-block;
+    transition: 0.2s;
+}
+
+header .header__menu__desktop li a:hover {
+    transform: scale(1.05);
 }
 
 body {
-    background-color: black;
-}
+    background-color: #E3E3E3;
+} 
 
 header .header__btn button {
     width: 140px;
     height: 50px;
-    background-color: transparent;
-    color: white;
-    font-size: 18px;
-    border: 1px solid white;
-    cursor: pointer;
 }
+
+header .header__btn button:hover, .hero__text button:hover {
+    background-color: white;
+    color: black;
+}
+
+/* estilos da seção hero */
+
+section.hero__section {
+    background-image: url(../images/bg-inicio-site.jpg);
+    background-repeat: no-repeat;
+    height: 98vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+
+}
+
+.hero__section .interface {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.hero__section .hero__text h1 {
+    font-size: 4em;
+    line-height: 70px;
+    font-weight: 200;
+}
+
+.hero__section .hero__text h1 span {
+    display: block;
+    font-weight: 800;
+}
+
+.hero__section .hero__text p {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+.hero__section .hero__text p span {
+    display: block;
+}
+
+.hero__text button {
+    width: 220px;
+    height: 60px;
+    font-size: 20px;
+}
+
+/* estilos da seção vantagens */
+section.advantages{
+    padding: 80px 0;
+}
+
+.advantages .advantages__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10%;
+    margin-bottom: 60px;
+}
+
+.advantages__container .advantage__img img{
+    max-width: 480px;
+}
+
+.advantages__container .advantage__text h3{
+    font-size: 3em;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+.advantages__container .advantage__text h3 span{
+    font-weight: 300;
+}
+
