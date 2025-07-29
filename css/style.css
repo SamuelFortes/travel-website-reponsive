@@ -203,3 +203,75 @@ section.contact .contact__container{
     color: white;
 }
 
+/* estilos da seção hospedagem */
+section.accommodation{
+    background-image: url(../images/hotel-bg.jpg);
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    position: relative;
+}
+
+.accommodation > .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #000000b9;
+    z-index: 1;
+}
+
+.accommodation .interface {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    z-index: 2;
+    position: relative;
+}
+
+ .accommodation__text{
+    text-align: center;
+}
+
+.accommodation__text h3{
+    font-size: 3em;
+    line-height: 50px;
+    margin-bottom: 20px;
+    font-weight: 200;
+}
+
+.accommodation__text h3 span{
+    display: block;
+    font-weight: 700;
+}
+
+ .accommodation__text p{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.accommodation__btn a{
+    text-decoration: none;
+}
+
+.accommodation__btn a button{
+    width: 220px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 15px;
+}
+
+.accommodation__btn a button:hover{
+    background-color: white;
+    color: black;
+}
