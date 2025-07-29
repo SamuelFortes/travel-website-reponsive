@@ -212,6 +212,7 @@ section.accommodation{
     background-position: center;
     color: white;
     position: relative;
+    background-attachment: fixed;
 }
 
 .accommodation > .overlay{
