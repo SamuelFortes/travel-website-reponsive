@@ -28,6 +28,8 @@ header {
     position: fixed;
     top: 0;
     left: 0;
+    transition: 0.5s;
+    z-index: 3;
 }
 
 header .interface {
@@ -39,6 +41,41 @@ header .interface {
 header .header__logo img {
     max-width: 40px;
 }
+
+
+/* estilos do menu dinâmico */
+header .header__logo img.header__logo__black{
+    display: none;
+}
+
+header.scroll{
+    background-color: white;
+    box-shadow: 0 0 8px #00000061;
+}
+
+header.scroll .header__menu__desktop nav ul li a{
+    color: black;
+}
+
+header.scroll .header__btn a button{
+    border: 2px solid black;
+    color: black;
+}
+
+header.scroll .header__btn a button:hover{
+    background-color: black;
+    color: white;
+}
+
+header.scroll .header__logo .header__logo__white{
+    display: none;
+}
+
+header.scroll .header__logo .header__logo__black{
+    display: block;
+}
+
+/* ----------------------- */
 
 header .header__menu__desktop nav ul{
     list-style-type: none;
