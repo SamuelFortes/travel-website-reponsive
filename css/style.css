@@ -10,6 +10,7 @@
 .interface {
     max-width: 1280px;
     margin: 0 auto;
+    padding: 0 4%;
 }
 
 header .header__btn button, .hero__text button  {
@@ -225,7 +226,7 @@ section.contact .contact__container{
     margin: 0 auto 20px auto;
     align-items: center;
     justify-content: space-between;
-    padding: 0 60px;
+    padding: 0 50px;
     cursor: pointer;
     background-color: transparent;
     border: 2px solid black;
@@ -406,12 +407,8 @@ footer .footer__links{
 }
 
 footer .footer__links a{
-    margin: 0 15px;
-}
-
-footer .footer__links a{
     display: inline-block;
-    margin-right: 20px;
+    margin: 0 15px;
     color: white;
 }
 

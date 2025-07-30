@@ -1,0 +1,135 @@
+@media screen and (max-width: 900px){
+    header .header__menu__desktop, header .header__btn{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 900px){
+    /* estilos da seção hero responsiva */
+    .hero__section .hero__text h1 {
+    font-size: 2.5em;
+    line-height: 50px;
+}
+
+.hero__section .hero__text p {
+    font-size: 16px;
+}
+
+.hero__section .hero__text p span {
+    display: inline;
+}
+
+.hero__text button {
+    font-size: 18px;
+}
+
+/* estilos da seção vantagens responsiva */
+.advantages .advantages__container{
+    flex-direction: column;
+}
+
+.advantages__container .advantage__img img{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.advantages__container .advantage__first{
+    order: 0;
+}
+
+.advantages__container .advantage__second{
+    order: 1;
+}
+
+/* estilos da seção de contato responsiva */
+section.contact .contact__container{
+    flex-direction: column;
+    gap: 60px;
+}
+
+.contact__container .contact__text h3{
+    font-size: 2.3em;
+}
+
+.contact__container .contact__text p{
+    font-size: 18px;
+}
+
+.contact__container .contact__icons{
+    width: 100%;
+    padding: 0 20px;
+}
+
+.contact__icons a button{
+    width: 100%;
+    gap: 10px;
+}
+
+.contact__icons a button p{
+    font-size: 15px;
+}
+
+/* estilos da seção hospedagem */
+ .accommodation__text{
+    text-align: center;
+}
+
+.accommodation__text h3{
+    font-size: 2.3em;
+    line-height: 40px;
+}
+
+ .accommodation__text p{
+    font-size: 18px;
+}
+
+.accommodation__btn a button{
+    font-size: 17px;
+}
+
+/* estilos da seção como funciona */
+.how__works .how__works__container{
+    flex-direction: column;
+    gap: 30px;
+}
+
+.how__works__container .how__works__text{
+    position: static;
+}
+
+.how__works__steps{
+    flex-direction: column;
+}
+
+.how__works__steps .how__works__step{
+    width: 100%;
+    flex-direction: column;
+}
+
+.how__works__steps .how__works__step__text{
+    text-align: center;
+}
+
+.how__works__steps .how__works__step__text h4{
+    font-size: 1.7em;
+}
+
+.how__works__step__text p{
+    font-size: 15px;
+}
+
+/* estilos do rodapé */
+footer .footer__links{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer .footer__links a{
+    font-size: 18px;
+}
+
+footer .footer__text p{
+    font-size: 15px;
+}
+}
