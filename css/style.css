@@ -62,7 +62,6 @@ header .header__menu__desktop li a:hover {
 
 body {
     background-color: #E3E3E3;
-    height: 900vh;
 } 
 
 header .header__btn button {
@@ -334,4 +333,56 @@ section.how__works{
 
 .how__works__step__text h4 span{
     font-weight: 700;
+}
+
+/* estilos do rodapé */
+footer{
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    padding: 30px 0;
+}
+
+footer .footer__btns a{
+    text-decoration: none;
+}
+
+footer .footer__btns a button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: 0.5s;
+}
+
+footer .footer__btns a button:hover{
+    background-color: white;
+    color: black;
+}
+
+footer .footer__links{
+    margin: 20px 0;
+}
+
+footer .footer__links a{
+    margin: 0 15px;
+}
+
+footer .footer__links a{
+    display: inline-block;
+    margin-right: 20px;
+    color: white;
+}
+
+footer .footer__text{
+    border-top: 2px solid white;
+}
+
+footer .footer__text p{
+    color: white;
+    margin-top: 10px;
 }
