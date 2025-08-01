@@ -2,6 +2,10 @@
     header .header__menu__desktop, header .header__btn{
         display: none;
     }
+
+    header .btn__menu__mobile{
+    display: block;
+}
 }
 
 @media screen and (max-width: 900px){
