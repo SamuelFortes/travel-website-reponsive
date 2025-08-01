@@ -112,6 +112,39 @@ header .header__btn button:hover, .hero__text button:hover {
     color: black;
 }
 
+/* estilos do botão do menu mobile */
+header .btn__menu__mobile{
+    display: none;
+}
+
+header .btn__menu__mobile div{
+    background-color: white;
+    height: 4px;
+    margin: 10px 0;
+    transition: 0.2s;
+}
+
+header .line1__btn__mobile{
+    width: 30px;
+}
+
+header .line2__btn__mobile{
+    width: 20px;
+}
+
+header.scroll .btn__menu__mobile div{
+    background-color: black;
+}
+
+header .btn__menu__mobile .line1__btn__mobile.activate__line1{
+    transform: rotate(45deg) translate(31%);
+}
+
+header .btn__menu__mobile .line2__btn__mobile.activate__line2{
+    transform: rotate(-45deg) translate(31%);
+    width: 30px;
+}
+
 /* estilos da seção hero */
 
 section.hero__section {
