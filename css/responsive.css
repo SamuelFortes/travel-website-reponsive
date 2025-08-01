@@ -6,7 +6,7 @@
     header .btn__menu__mobile{
     display: block;
 }
-}
+} 
 
 @media screen and (max-width: 900px){
     /* estilos da seção hero responsiva */
