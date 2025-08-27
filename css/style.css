@@ -115,6 +115,8 @@ header .header__btn button:hover, .hero__text button:hover {
 /* estilos do botão do menu mobile */
 header .btn__menu__mobile{
     display: none;
+    position: relative;
+    z-index: 9999999999999999999;
 }
 
 header .btn__menu__mobile div{
@@ -138,11 +140,74 @@ header.scroll .btn__menu__mobile div{
 
 header .btn__menu__mobile .line1__btn__mobile.activate__line1{
     transform: rotate(45deg) translate(31%);
+    background-color: white;
 }
 
 header .btn__menu__mobile .line2__btn__mobile.activate__line2{
     transform: rotate(-45deg) translate(31%);
     width: 30px;
+    background-color: white;
+}
+
+/* estilos do menu mobile */
+header .header__menu__mobile{
+    background-color: black;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+header .header__menu__mobile.open{
+    width: 100%;
+    height: 100vh;
+}
+
+header .header__menu__mobile nav{
+    width: 100%;
+}
+
+header .header__menu__mobile ul{
+    list-style-type: none;
+    width: 100%;
+}
+
+header .header__menu__mobile ul li{
+    display: block;
+    width: 100%;
+    margin: 0;
+}
+
+header .header__menu__mobile ul a{
+    color: white;
+    text-decoration: none;
+    font-size: 26px;
+    padding: 15px 0;
+    display: inline-block;
+    width: 100%;
+    transition: 0.5s;
+}
+
+header .header__menu__mobile ul a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 20px white;
+}
+
+body.no__overflow{
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    height: 100%;
 }
 
 /* estilos da seção hero */
